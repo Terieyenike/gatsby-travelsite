@@ -12,6 +12,8 @@ export const Nav = styled.nav`
   position: relative;
 `
 
+// export const Div = styled.div``
+
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;

@@ -25,17 +25,19 @@ const Header = () => {
       <NavHeader className={navBar ? "navbar active" : "navbar"}>
         <Container>
           <Nav>
-            <NavLink to="/">Explor-e</NavLink>
-            <Bars />
+            <div>
+              <NavLink to="/">Explor-e</NavLink>
+              <Bars />
+            </div>
             <NavMenu>
               {menuData.map((menu, id) => (
-                <NavLink to={menu.link} key={id} className="link__margin">
+                <NavLink to="#" key={id} className="link__margin">
                   {menu.title}
                 </NavLink>
               ))}
             </NavMenu>
             <NavBtn>
-              <Button primary="true" round="true" to="/trips">
+              <Button primary="true" round="true" to="#">
                 Book a flight
               </Button>
             </NavBtn>

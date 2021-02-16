@@ -13,29 +13,29 @@ const FooterPage = () => {
               <LogoLink to="/">Explor-e</LogoLink>
               <P>
                 We strive to create the best <span>experiences for our</span>
-                <span>customers</span>
+                <span>customers.</span>
               </P>
             </LogoText>
             <FooterHeader>
               <H2>Contact Us</H2>
               <Ul>
                 <Li>
-                  <LiAnchor to="/contact" className="nav__link">
+                  <LiAnchor to="#" className="nav__link">
                     Contact
                   </LiAnchor>
                 </Li>
                 <Li>
-                  <LiAnchor to="/support" className="nav__link">
+                  <LiAnchor to="#" className="nav__link">
                     Support
                   </LiAnchor>
                 </Li>
                 <Li>
-                  <LiAnchor to="/descriptions" className="nav__link">
+                  <LiAnchor to="#" className="nav__link">
                     Descriptions
                   </LiAnchor>
                 </Li>
                 <Li>
-                  <LiAnchor to="/sponsorships" className="nav__link">
+                  <LiAnchor to="#" className="nav__link">
                     Sponsorships
                   </LiAnchor>
                 </Li>
@@ -45,22 +45,22 @@ const FooterPage = () => {
               <H2>Videos</H2>
               <Ul>
                 <Li>
-                  <LiAnchor to="/contact" className="nav__link">
+                  <LiAnchor to="#" className="nav__link">
                     Submit Video
                   </LiAnchor>
                 </Li>
                 <Li>
-                  <LiAnchor to="/support" className="nav__link">
+                  <LiAnchor to="#" className="nav__link">
                     Ambassadors
                   </LiAnchor>
                 </Li>
                 <Li>
-                  <LiAnchor to="/descriptions" className="nav__link">
+                  <LiAnchor to="#" className="nav__link">
                     Agency
                   </LiAnchor>
                 </Li>
                 <Li>
-                  <LiAnchor to="/sponsorships" className="nav__link">
+                  <LiAnchor to="#" className="nav__link">
                     Influencer
                   </LiAnchor>
                 </Li>
@@ -70,22 +70,22 @@ const FooterPage = () => {
               <H2>Social Media</H2>
               <Ul>
                 <Li>
-                  <LiAnchor to="/contact" className="nav__link">
+                  <LiAnchor to="#" className="nav__link">
                     Instagram
                   </LiAnchor>
                 </Li>
                 <Li>
-                  <LiAnchor to="/support" className="nav__link">
+                  <LiAnchor to="#" className="nav__link">
                     Facebook
                   </LiAnchor>
                 </Li>
                 <Li>
-                  <LiAnchor to="/descriptions" className="nav__link">
+                  <LiAnchor to="#" className="nav__link">
                     Youtube
                   </LiAnchor>
                 </Li>
                 <Li>
-                  <LiAnchor to="/sponsorships" className="nav__link">
+                  <LiAnchor to="#" className="nav__link">
                     Twitter
                   </LiAnchor>
                 </Li>

@@ -52,7 +52,7 @@ const Trips = ({ heading }) => {
               <ProductTitle>{item.node.name}</ProductTitle>
             </TextWrap>
             <Button
-              to="/trips"
+              to="#"
               primary="true"
               round="true"
               css={`
