@@ -1,17 +1,28 @@
-// import { Link } from "gatsby"
+import React, { useState } from "react"
 import styled from "styled-components"
-import React from "react"
 import { FaBars } from "react-icons/fa"
 import { menuData } from "../../data/MenuData"
-import { Nav, NavLink, NavMenu, NavBtn, NavHeader } from "./Header.style"
+import { Nav, NavMenu, NavBtn, NavHeader } from "./Header.style"
 import Container from "../../Container"
 import { Button } from "../Button/Button"
+import { Link } from "gatsby"
 import "../layout.css"
 
 const Header = () => {
+  const [navBar, setNavBar] = useState(false)
+
+  const changeBg = () => {
+    if (window.scrollY >= 75) {
+      setNavBar(true)
+    } else {
+      setNavBar(false)
+    }
+  }
+
+  window.addEventListener("scroll", changeBg)
   return (
     <>
-      <NavHeader>
+      <NavHeader className={navBar ? "navbar active" : "navbar"}>
         <Container>
           <Nav>
             <NavLink to="/">Explor-e</NavLink>
@@ -49,4 +60,13 @@ export const Bars = styled(FaBars)`
     font-size: 1.8rem;
     cursor: pointer;
   }
+`
+
+const NavLink = styled(Link)`
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #fff;
 `

@@ -8,9 +8,9 @@ import Stats from "../components/Stats"
 import "../components/layout.css"
 import Email from "../components/Email"
 
-const IndexPage = () => (
+const TripsPage = () => (
   <Layout>
-    <SEO title="Travel with us" />
+    <SEO title="Discover new Trips" />
     <Hero />
     <Trips heading={"our favourite destinations"} />
     <Testimonials />
@@ -19,4 +19,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default TripsPage

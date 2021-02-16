@@ -19,3 +19,15 @@ h3 {
 .link__margin + .link__margin {
   margin-left: 1.5em;
 }
+
+.navbar {
+  background: transparent;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  height: 75px;
+}
+
+.navbar.active {
+  background: #0c0c0c;
+}
